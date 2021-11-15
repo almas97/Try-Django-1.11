@@ -87,7 +87,7 @@
 						"characters": "  "
 					},
 					"AgAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAACAAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
 				],
 				[
 					2,
@@ -95,58 +95,45 @@
 					"left_delete",
 					null,
 					"AQAAAAEAAAAAAAAAAQAAAAAAAAABAAAAIA",
-					"AQAAAAAAAAABAAAAAgAAAAAAAAACAAAAAAAAAAAAAAAAAPC/"
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAgAAAAAAAAACAAAAAAAAAAAAAAAAAPC/"
 				]
 			]
 		},
 		{
-			"contents": "echo \"from .base import *\n\nfrom .production import *\n\ntry:\n   from .local import *\nexcept:\n   pass\n\" > __init__.py",
-			"file": "src/python3/settings/__init__.py",
-			"file_size": 122,
-			"file_write_time": 132811771579569219,
+			"contents": "\n\n",
+			"file": "src/python3/try_django_1_11/__init__.py",
+			"file_size": 0,
+			"file_write_time": 132811729762509033,
 			"settings":
 			{
-				"buffer_size": 114,
-				"encoding": "UTF-8",
-				"line_ending": "Windows",
-				"name": "echo \"from .base import *"
+				"buffer_size": 2,
+				"line_ending": "Windows"
 			},
 			"undo_stack":
 			[
 				[
-					1,
-					1,
+					2,
+					2,
 					"paste",
 					null,
-					"AQAAAAAAAAAAAAAAcgAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+					"AgAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAACAAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8"
 				]
 			]
 		},
 		{
-			"file": "src/python3/try_django_1_11/__init__.py",
+			"file": "src/python3/manage.py",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 635,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "src/python3/try_django_1_11/settings/__init__.py",
-			"settings":
-			{
-				"buffer_size": 114,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "",
 			"file": "src/python3/try_django_1_11/old_settings.py",
-			"file_size": 3233,
-			"file_write_time": 132811773602085699,
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 3130,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			},
@@ -158,7 +145,15 @@
 					"cut",
 					null,
 					"AQAAAAAAAAAAAAAAAAAAAAAAAAApDAAAIiIiCkRqYW5nbyBzZXR0aW5ncyBmb3IgdHJ5X2RqYW5nb18xXzExIHByb2plY3QuCgpHZW5lcmF0ZWQgYnkgJ2RqYW5nby1hZG1pbiBzdGFydHByb2plY3QnIHVzaW5nIERqYW5nbyAyLjIuCgpGb3IgbW9yZSBpbmZvcm1hdGlvbiBvbiB0aGlzIGZpbGUsIHNlZQpodHRwczovL2RvY3MuZGphbmdvcHJvamVjdC5jb20vZW4vMi4yL3RvcGljcy9zZXR0aW5ncy8KCkZvciB0aGUgZnVsbCBsaXN0IG9mIHNldHRpbmdzIGFuZCB0aGVpciB2YWx1ZXMsIHNlZQpodHRwczovL2RvY3MuZGphbmdvcHJvamVjdC5jb20vZW4vMi4yL3JlZi9zZXR0aW5ncy8KIiIiCgppbXBvcnQgb3MKCiMgQnVpbGQgcGF0aHMgaW5zaWRlIHRoZSBwcm9qZWN0IGxpa2UgdGhpczogb3MucGF0aC5qb2luKEJBU0VfRElSLCAuLi4pCkJBU0VfRElSID0gb3MucGF0aC5kaXJuYW1lKG9zLnBhdGguZGlybmFtZShvcy5wYXRoLmFic3BhdGgoX19maWxlX18pKSkKCgojIFF1aWNrLXN0YXJ0IGRldmVsb3BtZW50IHNldHRpbmdzIC0gdW5zdWl0YWJsZSBmb3IgcHJvZHVjdGlvbgojIFNlZSBodHRwczovL2RvY3MuZGphbmdvcHJvamVjdC5jb20vZW4vMi4yL2hvd3RvL2RlcGxveW1lbnQvY2hlY2tsaXN0LwoKIyBTRUNVUklUWSBXQVJOSU5HOiBrZWVwIHRoZSBzZWNyZXQga2V5IHVzZWQgaW4gcHJvZHVjdGlvbiBzZWNyZXQhClNFQ1JFVF9LRVkgPSAndHQ3Nmo0NyMwYyFiaStjLXNtK3lfNGJxOG8weF8wOTNeM2wwbGFzaihyKDlzMyFqajUnCgojIFNFQ1VSSVRZIFdBUk5JTkc6IGRvbid0IHJ1biB3aXRoIGRlYnVnIHR1cm5lZCBvbiBpbiBwcm9kdWN0aW9uIQpERUJVRyA9IFRydWUKCkFMTE9XRURfSE9TVFMgPSBbXQoKCiMgQXBwbGljYXRpb24gZGVmaW5pdGlvbgoKSU5TVEFMTEVEX0FQUFMgPSBbCiAgICAnZGphbmdvLmNvbnRyaWIuYWRtaW4nLAogICAgJ2RqYW5nby5jb250cmliLmF1dGgnLAogICAgJ2RqYW5nby5jb250cmliLmNvbnRlbnR0eXBlcycsCiAgICAnZGphbmdvLmNvbnRyaWIuc2Vzc2lvbnMnLAogICAgJ2RqYW5nby5jb250cmliLm1lc3NhZ2VzJywKICAgICdkamFuZ28uY29udHJpYi5zdGF0aWNmaWxlcycsCl0KCk1JRERMRVdBUkUgPSBbCiAgICAnZGphbmdvLm1pZGRsZXdhcmUuc2VjdXJpdHkuU2VjdXJpdHlNaWRkbGV3YXJlJywKICAgICdkamFuZ28uY29udHJpYi5zZXNzaW9ucy5taWRkbGV3YXJlLlNlc3Npb25NaWRkbGV3YXJlJywKICAgICdkamFuZ28ubWlkZGxld2FyZS5jb21tb24uQ29tbW9uTWlkZGxld2FyZScsCiAgICAnZGphbmdvLm1pZGRsZXdhcmUuY3NyZi5Dc3JmVmlld01pZGRsZXdhcmUnLAogICAgJ2RqYW5nby5jb250cmliLmF1dGgubWlkZGxld2FyZS5BdXRoZW50aWNhdGlvbk1pZGRsZXdhcmUnLAogICAgJ2RqYW5nby5jb250cmliLm1lc3NhZ2VzLm1pZGRsZXdhcmUuTWVzc2FnZU1pZGRsZXdhcmUnLAogICAgJ2RqYW5nby5taWRkbGV3YXJlLmNsaWNramFja2luZy5YRnJhbWVPcHRpb25zTWlkZGxld2FyZScsCl0KClJPT1RfVVJMQ09ORiA9ICd0cnlfZGphbmdvXzFfMTEudXJscycKClRFTVBMQVRFUyA9IFsKICAgIHsKICAgICAgICAnQkFDS0VORCc6ICdkamFuZ28udGVtcGxhdGUuYmFja2VuZHMuZGphbmdvLkRqYW5nb1RlbXBsYXRlcycsCiAgICAgICAgJ0RJUlMnOiBbXSwKICAgICAgICAnQVBQX0RJUlMnOiBUcnVlLAogICAgICAgICdPUFRJT05TJzogewogICAgICAgICAgICAnY29udGV4dF9wcm9jZXNzb3JzJzogWwogICAgICAgICAgICAgICAgJ2RqYW5nby50ZW1wbGF0ZS5jb250ZXh0X3Byb2Nlc3NvcnMuZGVidWcnLAogICAgICAgICAgICAgICAgJ2RqYW5nby50ZW1wbGF0ZS5jb250ZXh0X3Byb2Nlc3NvcnMucmVxdWVzdCcsCiAgICAgICAgICAgICAgICAnZGphbmdvLmNvbnRyaWIuYXV0aC5jb250ZXh0X3Byb2Nlc3NvcnMuYXV0aCcsCiAgICAgICAgICAgICAgICAnZGphbmdvLmNvbnRyaWIubWVzc2FnZXMuY29udGV4dF9wcm9jZXNzb3JzLm1lc3NhZ2VzJywKICAgICAgICAgICAgXSwKICAgICAgICB9LAogICAgfSwKXQoKV1NHSV9BUFBMSUNBVElPTiA9ICd0cnlfZGphbmdvXzFfMTEud3NnaS5hcHBsaWNhdGlvbicKCgojIERhdGFiYXNlCiMgaHR0cHM6Ly9kb2NzLmRqYW5nb3Byb2plY3QuY29tL2VuLzIuMi9yZWYvc2V0dGluZ3MvI2RhdGFiYXNlcwoKREFUQUJBU0VTID0gewogICAgJ2RlZmF1bHQnOiB7CiAgICAgICAgJ0VOR0lORSc6ICdkamFuZ28uZGIuYmFja2VuZHMuc3FsaXRlMycsCiAgICAgICAgJ05BTUUnOiBvcy5wYXRoLmpvaW4oQkFTRV9ESVIsICdkYi5zcWxpdGUzJyksCiAgICB9Cn0KCgojIFBhc3N3b3JkIHZhbGlkYXRpb24KIyBodHRwczovL2RvY3MuZGphbmdvcHJvamVjdC5jb20vZW4vMi4yL3JlZi9zZXR0aW5ncy8jYXV0aC1wYXNzd29yZC12YWxpZGF0b3JzCgpBVVRIX1BBU1NXT1JEX1ZBTElEQVRPUlMgPSBbCiAgICB7CiAgICAgICAgJ05BTUUnOiAnZGphbmdvLmNvbnRyaWIuYXV0aC5wYXNzd29yZF92YWxpZGF0aW9uLlVzZXJBdHRyaWJ1dGVTaW1pbGFyaXR5VmFsaWRhdG9yJywKICAgIH0sCiAgICB7CiAgICAgICAgJ05BTUUnOiAnZGphbmdvLmNvbnRyaWIuYXV0aC5wYXNzd29yZF92YWxpZGF0aW9uLk1pbmltdW1MZW5ndGhWYWxpZGF0b3InLAogICAgfSwKICAgIHsKICAgICAgICAnTkFNRSc6ICdkamFuZ28uY29udHJpYi5hdXRoLnBhc3N3b3JkX3ZhbGlkYXRpb24uQ29tbW9uUGFzc3dvcmRWYWxpZGF0b3InLAogICAgfSwKICAgIHsKICAgICAgICAnTkFNRSc6ICdkamFuZ28uY29udHJpYi5hdXRoLnBhc3N3b3JkX3ZhbGlkYXRpb24uTnVtZXJpY1Bhc3N3b3JkVmFsaWRhdG9yJywKICAgIH0sCl0KCgojIEludGVybmF0aW9uYWxpemF0aW9uCiMgaHR0cHM6Ly9kb2NzLmRqYW5nb3Byb2plY3QuY29tL2VuLzIuMi90b3BpY3MvaTE4bi8KCkxBTkdVQUdFX0NPREUgPSAnZW4tdXMnCgpUSU1FX1pPTkUgPSAnVVRDJwoKVVNFX0kxOE4gPSBUcnVlCgpVU0VfTDEwTiA9IFRydWUKClVTRV9UWiA9IFRydWUKCgojIFN0YXRpYyBmaWxlcyAoQ1NTLCBKYXZhU2NyaXB0LCBJbWFnZXMpCiMgaHR0cHM6Ly9kb2NzLmRqYW5nb3Byb2plY3QuY29tL2VuLzIuMi9ob3d0by9zdGF0aWMtZmlsZXMvCgpTVEFUSUNfVVJMID0gJy9zdGF0aWMvJwo",
-					"AQAAAAAAAAABAAAAAAAAAAAAAAApDAAAAAAAAAAAAAAAcH5A"
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAApDAAAAAAAAAAAAAAAcH5A"
+				],
+				[
+					1,
+					1,
+					"paste",
+					null,
+					"AQAAAAAAAAAAAAAAOgwAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8"
 				]
 			]
 		},
@@ -178,7 +173,7 @@
 					"paste",
 					null,
 					"AQAAAAAAAAAAAAAAKQwAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
 				],
 				[
 					31,
@@ -186,7 +181,7 @@
 					"paste",
 					null,
 					"AgAAAJcBAAAAAAAAmAEAAAAAAAAAAAAAmAEAAAAAAACZAQAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAlwEAAAAAAACXAQAAAAAAAAAAAAAAAPC/"
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAlwEAAAAAAACXAQAAAAAAAAAAAAAAAPC/"
 				],
 				[
 					32,
@@ -196,7 +191,7 @@
 						"forward": false
 					},
 					"AQAAAJcBAAAAAAAAlwEAAAAAAAACAAAAb28",
-					"AQAAAAAAAAABAAAAmQEAAAAAAACZAQAAAAAAAAAAAAAAAPC/"
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAmQEAAAAAAACZAQAAAAAAAAAAAAAAAPC/"
 				],
 				[
 					33,
@@ -204,7 +199,7 @@
 					"left_delete",
 					null,
 					"AQAAAJYBAAAAAAAAlgEAAAAAAAABAAAAPQ",
-					"AQAAAAAAAAABAAAAlwEAAAAAAACXAQAAAAAAAAAAAAAAAPC/"
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAlwEAAAAAAACXAQAAAAAAAAAAAAAAAPC/"
 				],
 				[
 					34,
@@ -214,7 +209,7 @@
 						"characters": "="
 					},
 					"AQAAAJYBAAAAAAAAlwEAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAlgEAAAAAAACWAQAAAAAAAAAAAAAAAPC/"
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAlgEAAAAAAACWAQAAAAAAAAAAAAAAAPC/"
 				],
 				[
 					39,
@@ -222,7 +217,7 @@
 					"paste",
 					null,
 					"AQAAAJgBAAAAAAAApwEAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAmAEAAAAAAACYAQAAAAAAAAAAAAAAAPC/"
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAmAEAAAAAAACYAQAAAAAAAAAAAAAAAPC/"
 				],
 				[
 					40,
@@ -232,7 +227,7 @@
 						"characters": "("
 					},
 					"AQAAAKcBAAAAAAAAqAEAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAApwEAAAAAAACnAQAAAAAAAAAAAAAAAPC/"
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAApwEAAAAAAACnAQAAAAAAAAAAAAAAAPC/"
 				],
 				[
 					43,
@@ -242,7 +237,7 @@
 						"characters": ")"
 					},
 					"AQAAAOMBAAAAAAAA5AEAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA4wEAAAAAAADjAQAAAAAAAAAAAAAAAPC/"
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAA4wEAAAAAAADjAQAAAAAAAAAAAAAAAPC/"
 				]
 			]
 		},
@@ -250,46 +245,7 @@
 			"file": "src/python3/try_django_1_11/settings/production.py",
 			"settings":
 			{
-				"buffer_size": 0,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/python3/try_django_1_11/settings/local.py",
-			"settings":
-			{
-				"buffer_size": 0,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			},
-			"undo_stack":
-			[
-				[
-					1,
-					1,
-					"insert",
-					{
-						"characters": "lovc"
-					},
-					"BAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAACAAAAAAAAAAAAAAACAAAAAAAAAAMAAAAAAAAAAAAAAAMAAAAAAAAABAAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					2,
-					4,
-					"left_delete",
-					null,
-					"BAAAAAMAAAAAAAAAAwAAAAAAAAABAAAAYwIAAAAAAAAAAgAAAAAAAAABAAAAdgEAAAAAAAAAAQAAAAAAAAABAAAAbwAAAAAAAAAAAAAAAAAAAAABAAAAbA",
-					"AQAAAAAAAAABAAAABAAAAAAAAAAEAAAAAAAAAAAAAAAAAPC/"
-				]
-			]
-		},
-		{
-			"file": "src/python3/try_django_1_11/settings/base.py",
-			"settings":
-			{
-				"buffer_size": 3113,
+				"buffer_size": 3132,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			},
@@ -301,7 +257,169 @@
 					"paste",
 					null,
 					"AQAAAAAAAAAAAAAAKQwAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					54,
+					1,
+					"right_delete",
+					null,
+					"AQAAAAAAAAAAAAAAAAAAAAAAAAApDAAAIiIiCkRqYW5nbyBzZXR0aW5ncyBmb3IgdHJ5X2RqYW5nb18xXzExIHByb2plY3QuCgpHZW5lcmF0ZWQgYnkgJ2RqYW5nby1hZG1pbiBzdGFydHByb2plY3QnIHVzaW5nIERqYW5nbyAyLjIuCgpGb3IgbW9yZSBpbmZvcm1hdGlvbiBvbiB0aGlzIGZpbGUsIHNlZQpodHRwczovL2RvY3MuZGphbmdvcHJvamVjdC5jb20vZW4vMi4yL3RvcGljcy9zZXR0aW5ncy8KCkZvciB0aGUgZnVsbCBsaXN0IG9mIHNldHRpbmdzIGFuZCB0aGVpciB2YWx1ZXMsIHNlZQpodHRwczovL2RvY3MuZGphbmdvcHJvamVjdC5jb20vZW4vMi4yL3JlZi9zZXR0aW5ncy8KIiIiCgppbXBvcnQgb3MKCiMgQnVpbGQgcGF0aHMgaW5zaWRlIHRoZSBwcm9qZWN0IGxpa2UgdGhpczogb3MucGF0aC5qb2luKEJBU0VfRElSLCAuLi4pCkJBU0VfRElSID0gb3MucGF0aC5kaXJuYW1lKG9zLnBhdGguZGlybmFtZShvcy5wYXRoLmFic3BhdGgoX19maWxlX18pKSkKCgojIFF1aWNrLXN0YXJ0IGRldmVsb3BtZW50IHNldHRpbmdzIC0gdW5zdWl0YWJsZSBmb3IgcHJvZHVjdGlvbgojIFNlZSBodHRwczovL2RvY3MuZGphbmdvcHJvamVjdC5jb20vZW4vMi4yL2hvd3RvL2RlcGxveW1lbnQvY2hlY2tsaXN0LwoKIyBTRUNVUklUWSBXQVJOSU5HOiBrZWVwIHRoZSBzZWNyZXQga2V5IHVzZWQgaW4gcHJvZHVjdGlvbiBzZWNyZXQhClNFQ1JFVF9LRVkgPSAndHQ3Nmo0NyMwYyFiaStjLXNtK3lfNGJxOG8weF8wOTNeM2wwbGFzaihyKDlzMyFqajUnCgojIFNFQ1VSSVRZIFdBUk5JTkc6IGRvbid0IHJ1biB3aXRoIGRlYnVnIHR1cm5lZCBvbiBpbiBwcm9kdWN0aW9uIQpERUJVRyA9IFRydWUKCkFMTE9XRURfSE9TVFMgPSBbXQoKCiMgQXBwbGljYXRpb24gZGVmaW5pdGlvbgoKSU5TVEFMTEVEX0FQUFMgPSBbCiAgICAnZGphbmdvLmNvbnRyaWIuYWRtaW4nLAogICAgJ2RqYW5nby5jb250cmliLmF1dGgnLAogICAgJ2RqYW5nby5jb250cmliLmNvbnRlbnR0eXBlcycsCiAgICAnZGphbmdvLmNvbnRyaWIuc2Vzc2lvbnMnLAogICAgJ2RqYW5nby5jb250cmliLm1lc3NhZ2VzJywKICAgICdkamFuZ28uY29udHJpYi5zdGF0aWNmaWxlcycsCl0KCk1JRERMRVdBUkUgPSBbCiAgICAnZGphbmdvLm1pZGRsZXdhcmUuc2VjdXJpdHkuU2VjdXJpdHlNaWRkbGV3YXJlJywKICAgICdkamFuZ28uY29udHJpYi5zZXNzaW9ucy5taWRkbGV3YXJlLlNlc3Npb25NaWRkbGV3YXJlJywKICAgICdkamFuZ28ubWlkZGxld2FyZS5jb21tb24uQ29tbW9uTWlkZGxld2FyZScsCiAgICAnZGphbmdvLm1pZGRsZXdhcmUuY3NyZi5Dc3JmVmlld01pZGRsZXdhcmUnLAogICAgJ2RqYW5nby5jb250cmliLmF1dGgubWlkZGxld2FyZS5BdXRoZW50aWNhdGlvbk1pZGRsZXdhcmUnLAogICAgJ2RqYW5nby5jb250cmliLm1lc3NhZ2VzLm1pZGRsZXdhcmUuTWVzc2FnZU1pZGRsZXdhcmUnLAogICAgJ2RqYW5nby5taWRkbGV3YXJlLmNsaWNramFja2luZy5YRnJhbWVPcHRpb25zTWlkZGxld2FyZScsCl0KClJPT1RfVVJMQ09ORiA9ICd0cnlfZGphbmdvXzFfMTEudXJscycKClRFTVBMQVRFUyA9IFsKICAgIHsKICAgICAgICAnQkFDS0VORCc6ICdkamFuZ28udGVtcGxhdGUuYmFja2VuZHMuZGphbmdvLkRqYW5nb1RlbXBsYXRlcycsCiAgICAgICAgJ0RJUlMnOiBbXSwKICAgICAgICAnQVBQX0RJUlMnOiBUcnVlLAogICAgICAgICdPUFRJT05TJzogewogICAgICAgICAgICAnY29udGV4dF9wcm9jZXNzb3JzJzogWwogICAgICAgICAgICAgICAgJ2RqYW5nby50ZW1wbGF0ZS5jb250ZXh0X3Byb2Nlc3NvcnMuZGVidWcnLAogICAgICAgICAgICAgICAgJ2RqYW5nby50ZW1wbGF0ZS5jb250ZXh0X3Byb2Nlc3NvcnMucmVxdWVzdCcsCiAgICAgICAgICAgICAgICAnZGphbmdvLmNvbnRyaWIuYXV0aC5jb250ZXh0X3Byb2Nlc3NvcnMuYXV0aCcsCiAgICAgICAgICAgICAgICAnZGphbmdvLmNvbnRyaWIubWVzc2FnZXMuY29udGV4dF9wcm9jZXNzb3JzLm1lc3NhZ2VzJywKICAgICAgICAgICAgXSwKICAgICAgICB9LAogICAgfSwKXQoKV1NHSV9BUFBMSUNBVElPTiA9ICd0cnlfZGphbmdvXzFfMTEud3NnaS5hcHBsaWNhdGlvbicKCgojIERhdGFiYXNlCiMgaHR0cHM6Ly9kb2NzLmRqYW5nb3Byb2plY3QuY29tL2VuLzIuMi9yZWYvc2V0dGluZ3MvI2RhdGFiYXNlcwoKREFUQUJBU0VTID0gewogICAgJ2RlZmF1bHQnOiB7CiAgICAgICAgJ0VOR0lORSc6ICdkamFuZ28uZGIuYmFja2VuZHMuc3FsaXRlMycsCiAgICAgICAgJ05BTUUnOiBvcy5wYXRoLmpvaW4oQkFTRV9ESVIsICdkYi5zcWxpdGUzJyksCiAgICB9Cn0KCgojIFBhc3N3b3JkIHZhbGlkYXRpb24KIyBodHRwczovL2RvY3MuZGphbmdvcHJvamVjdC5jb20vZW4vMi4yL3JlZi9zZXR0aW5ncy8jYXV0aC1wYXNzd29yZC12YWxpZGF0b3JzCgpBVVRIX1BBU1NXT1JEX1ZBTElEQVRPUlMgPSBbCiAgICB7CiAgICAgICAgJ05BTUUnOiAnZGphbmdvLmNvbnRyaWIuYXV0aC5wYXNzd29yZF92YWxpZGF0aW9uLlVzZXJBdHRyaWJ1dGVTaW1pbGFyaXR5VmFsaWRhdG9yJywKICAgIH0sCiAgICB7CiAgICAgICAgJ05BTUUnOiAnZGphbmdvLmNvbnRyaWIuYXV0aC5wYXNzd29yZF92YWxpZGF0aW9uLk1pbmltdW1MZW5ndGhWYWxpZGF0b3InLAogICAgfSwKICAgIHsKICAgICAgICAnTkFNRSc6ICdkamFuZ28uY29udHJpYi5hdXRoLnBhc3N3b3JkX3ZhbGlkYXRpb24uQ29tbW9uUGFzc3dvcmRWYWxpZGF0b3InLAogICAgfSwKICAgIHsKICAgICAgICAnTkFNRSc6ICdkamFuZ28uY29udHJpYi5hdXRoLnBhc3N3b3JkX3ZhbGlkYXRpb24uTnVtZXJpY1Bhc3N3b3JkVmFsaWRhdG9yJywKICAgIH0sCl0KCgojIEludGVybmF0aW9uYWxpemF0aW9uCiMgaHR0cHM6Ly9kb2NzLmRqYW5nb3Byb2plY3QuY29tL2VuLzIuMi90b3BpY3MvaTE4bi8KCkxBTkdVQUdFX0NPREUgPSAnZW4tdXMnCgpUSU1FX1pPTkUgPSAnVVRDJwoKVVNFX0kxOE4gPSBUcnVlCgpVU0VfTDEwTiA9IFRydWUKClVTRV9UWiA9IFRydWUKCgojIFN0YXRpYyBmaWxlcyAoQ1NTLCBKYXZhU2NyaXB0LCBJbWFnZXMpCiMgaHR0cHM6Ly9kb2NzLmRqYW5nb3Byb2plY3QuY29tL2VuLzIuMi9ob3d0by9zdGF0aWMtZmlsZXMvCgpTVEFUSUNfVVJMID0gJy9zdGF0aWMvJwo",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAACkMAAAAAAAAAAAAAADgbkA"
+				],
+				[
+					55,
+					1,
+					"paste",
+					null,
+					"AQAAAAAAAAAAAAAAOgwAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					62,
+					1,
+					"insert",
+					{
+						"characters": "Faaa"
+					},
+					"BQAAAD8DAAAAAAAAQAMAAAAAAAAAAAAAQAMAAAAAAABAAwAAAAAAAAQAAABUcnVlQAMAAAAAAABBAwAAAAAAAAAAAABBAwAAAAAAAEIDAAAAAAAAAAAAAEIDAAAAAAAAQwMAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABDAwAAAAAAAD8DAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					63,
+					2,
+					"left_delete",
+					null,
+					"AgAAAEIDAAAAAAAAQgMAAAAAAAABAAAAYUEDAAAAAAAAQQMAAAAAAAABAAAAYQ",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABDAwAAAAAAAEMDAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					64,
+					1,
+					"insert",
+					{
+						"characters": "lse"
+					},
+					"AwAAAEEDAAAAAAAAQgMAAAAAAAAAAAAAQgMAAAAAAABDAwAAAAAAAAAAAABDAwAAAAAAAEQDAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABBAwAAAAAAAEEDAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					67,
+					1,
+					"insert",
+					{
+						"characters": "b"
+					},
+					"AgAAANcCAAAAAAAA2AIAAAAAAAAAAAAA2AIAAAAAAADYAgAAAAAAAAEAAABx",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADYAgAAAAAAANcCAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					72,
+					1,
+					"insert",
+					{
+						"characters": "qq"
+					},
+					"AgAAANgCAAAAAAAA2QIAAAAAAAAAAAAA2QIAAAAAAADaAgAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADYAgAAAAAAANgCAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					73,
+					1,
+					"left_delete",
+					null,
+					"AQAAANkCAAAAAAAA2QIAAAAAAAABAAAAcQ",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADaAgAAAAAAANoCAAAAAAAAAAAAAAAA8L8"
+				]
+			]
+		},
+		{
+			"file": "src/python3/try_django_1_11/settings/__init__.py",
+			"settings":
+			{
+				"buffer_size": 92,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/python3/.gitignore",
+			"settings":
+			{
+				"buffer_size": 55,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					1,
+					1,
+					"paste",
+					null,
+					"AQAAAAAAAAAAAAAAOQAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					3,
+					1,
+					"left_delete",
+					null,
+					"AQAAADkAAAAAAAAAOQAAAAAAAAAoAAAAIyBjcmVhdGVkIGJ5IHZpcnR1YWxlbnYgYXV0b21hdGljYWxseQoqCg",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAA5AAAAAAAAAGEAAAAAAAAAAAAAAAAAMEA"
+				],
+				[
+					5,
+					1,
+					"left_delete",
+					null,
+					"AQAAADcAAAAAAAAANwAAAAAAAAABAAAAIg",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAA4AAAAAAAAADgAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					8,
+					1,
+					"left_delete",
+					null,
+					"AQAAAAAAAAAAAAAAAAAAAAAAAAABAAAAIg",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAABAAAAAAAAAAEAAAAAAAAAAAAAAAAA8L8"
+				]
+			]
+		},
+		{
+			"file": "src/python3/try_django_1_11/settings/base.py",
+			"settings":
+			{
+				"buffer_size": 3130,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					1,
+					1,
+					"paste",
+					null,
+					"AQAAAAAAAAAAAAAAKQwAAAAAAAAAAAAA",
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					4,
+					1,
+					"paste",
+					null,
+					"AQAAAJgBAAAAAAAAqAEAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACYAQAAAAAAAJgBAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					7,
+					1,
+					"insert",
+					{
+						"characters": ")"
+					},
+					"AQAAAOMBAAAAAAAA5AEAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADjAQAAAAAAAOMBAAAAAAAAAAAAAAAA8L8"
 				]
 			]
 		},
@@ -364,13 +482,16 @@
 		"/C/Dev/cfehome",
 		"/C/Dev/cfehome/src",
 		"/C/Dev/cfehome/src/python3",
-		"/C/Dev/cfehome/src/python3/try_django_1_11",
-		"/C/Dev/cfehome/src/python3/try_django_1_11/settings"
+		"/C/Dev/cfehome/src/python3/try_django_1_11"
 	],
 	"file_history":
 	[
-		"/C/Dev/cfehome/src/python3/try_django_1_11/settings/__init__.py",
 		"/C/Dev/cfehome/src/python3/settings/__init__.py",
+		"/C/Dev/cfehome/src/python3/db.sqlite3",
+		"/C/Dev/cfehome/src/python3/try_django_1_11/settings/local.py",
+		"/C/Dev/cfehome/src/python3/try_django_1_11/settings/__init__.py",
+		"/C/Dev/cfehome/src/python3/try_django_1_11/__init__.py",
+		"/C/Dev/cfehome/src/python3/try_django_1_11/requirements.txt",
 		"/G/python courses/30 Days of Python  Unlock your Python Potential/5. Day 5 Functions/functions.py",
 		"/G/python courses/30 Days of Python  Unlock your Python Potential/hungrypy/custom.py",
 		"/G/python courses/30 Days of Python  Unlock your Python Potential/5. Day 5 Functions/py_day_test.py",
@@ -449,57 +570,25 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 11,
+					"stack_index": 3,
 					"stack_multiselect": false,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "src/python3/settings/__init__.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 114,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								112,
-								114
-							]
-						],
-						"settings":
-						{
-							"auto_name": "echo \"from .base import *",
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 3,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 10,
-					"stack_multiselect": false,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
 					"file": "src/python3/try_django_1_11/__init__.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 2,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								2,
+								2
 							]
 						],
 						"settings":
@@ -510,31 +599,31 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 4,
 					"stack_multiselect": false,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "src/python3/try_django_1_11/settings/__init__.py",
+					"buffer": 2,
+					"file": "src/python3/manage.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 114,
+						"buffer_size": 635,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								624,
+								624
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 3,
+							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
@@ -546,39 +635,8 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 3,
 					"file": "src/python3/try_django_1_11/old_settings.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1.6,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"stack_multiselect": false,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "src/python3/try_django_1_11/settings.py",
 					"semi_transient": false,
 					"settings":
 					{
@@ -600,7 +658,69 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 88.8,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/python3/try_django_1_11/settings.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3130,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								424,
+								408
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 21.6,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/python3/try_django_1_11/settings/production.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3132,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								994,
+								994
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 215.2,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
@@ -609,11 +729,11 @@
 				},
 				{
 					"buffer": 6,
-					"file": "src/python3/try_django_1_11/settings/production.py",
+					"file": "src/python3/try_django_1_11/settings/__init__.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 92,
 						"regions":
 						{
 						},
@@ -626,7 +746,9 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.sublime-syntax"
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 3,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -638,12 +760,12 @@
 				},
 				{
 					"buffer": 7,
-					"file": "src/python3/try_django_1_11/settings/local.py",
+					"file": "src/python3/.gitignore",
 					"selected": true,
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 55,
 						"regions":
 						{
 						},
@@ -656,8 +778,7 @@
 						],
 						"settings":
 						{
-							"auto_name": "",
-							"syntax": "Packages/Python/Python.sublime-syntax"
+							"syntax": "Packages/Git Formats/Git Ignore.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -673,15 +794,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3113,
+						"buffer_size": 3130,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3113,
-								3113
+								482,
+								482
 							]
 						],
 						"settings":
@@ -691,10 +812,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1492.8,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 5,
 					"stack_multiselect": false,
 					"type": "text"
 				},
@@ -723,7 +844,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 10,
 					"stack_multiselect": false,
 					"type": "text"
 				},
@@ -754,7 +875,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 9,
 					"stack_multiselect": false,
 					"type": "text"
 				},
@@ -783,7 +904,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 11,
 					"stack_multiselect": false,
 					"type": "text"
 				}
@@ -867,7 +988,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 149.0,
+	"side_bar_width": 342.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
